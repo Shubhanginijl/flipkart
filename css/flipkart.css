@@ -1,0 +1,400 @@
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+body{
+ background-color:#efefef ;
+}
+#headerBlock{
+ background: #2874f0;
+ height: 56px;
+}
+#headerBlock article {
+ width: 80%;
+ margin: 0 auto;
+ display: flex;
+ height: 56px;
+ align-items: center;
+ justify-content: space-between;
+}
+.leftBlock{
+ flex-basis: 50%;
+ display: flex;
+ justify-content: flex-start;
+}
+.rightBlock{
+ flex-basis: 50%;
+ justify-content: flex-end;
+ display: flex;
+}
+.logo img{
+ width: 75px;
+}
+.explore img{
+ width: 9px;
+}
+.logoBlock a{
+ text-decoration: none;
+ font-style: italic;
+ font-size: 13px;
+}
+.explore span:nth-child(1){
+ color: #fff;
+}
+.explore span:nth-child(2) {
+ color: #ffe500;
+ margin-right: 2px;
+ font-weight: bold;
+}
+.explore{
+ margin-top: -6px;
+}
+.searchBlock{
+ flex-basis: 80%;
+ display: flex;
+ justify-content: flex-end;
+}
+.searchBlock input{
+ width:98%;
+ padding: 9px;
+}
+.searchIcon{
+ position: relative;
+ display: flex;
+}
+.searchBlock i{
+ position: absolute;
+ color: #2874f0;
+ margin-left: -28px;
+ margin-top: 12px;
+}
+.rightBlock nav > ul {
+ display: flex;
+ list-style: none;
+}
+.rightBlock nav > ul > li{
+ margin: 0 20px;
+ position: relative;
+}
+
+/* section 2 */
+#img1{
+    width: 100%;
+    height: 200px;
+}
+
+
+.rightBlock nav>ul>li>a{
+ text-decoration: none;
+ color: #fff;
+ text-transform: capitalize;
+ padding: 20px;
+}
+.dropdown{
+    position: absolute;
+    background-color: white;
+    width: 260px;
+    list-style: none;
+    top:38px;
+    left: -90px;
+    display: none;
+    z-index: 1;
+}
+.dropdown li a{
+    padding:12px;
+    color: #111;
+    text-decoration: none;
+    border-bottom:1px solid #efefef ;
+    display: block;
+}
+.rightBlock nav ul li:hover>ul{
+    display: block;
+}
+.triangleBlock{
+    display: flex;
+    justify-content: center;
+}
+.triangle{
+    border-bottom: 12px solid white;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    position: absolute;
+    top:-12px;
+} 
+/* mega menu starts here */
+#megamenuBlock{
+ width: 100%;
+ background-color: #fff;
+ border-bottom: 1px solid #ccc;
+ height: 45px;
+}
+#megamenuBlock article{
+ width: 80%;
+ margin: 0 auto;
+
+}
+#megamenuBlock>article>nav>ul{
+ display: flex;
+ height: 45px;
+ list-style: none;
+ align-items: center;
+ justify-content: flex-start;
+}
+#megamenuBlock> article>nav>ul>li{
+ flex: 1;
+ position: relative;
+ padding: 10px 0;
+}
+#megamenuBlock> article>nav>ul>li>a{
+ color: #111;
+ text-decoration: none;
+ font-size: 14px;
+ text-transform: capitalize;
+}
+.megamenuContainer{
+ width: 1200px;
+ height: 75vh;
+ background: #fff;
+ position: absolute;
+ top: 52px;
+ display: none;
+ border-bottom: 2px solid #ccc;
+ 
+}
+
+.innerMenu ul{
+ display: flex;
+ flex-direction: column;
+ list-style: none;
+}
+.innerMenu ul li a{
+ color: #222222ab;
+ text-decoration: none;
+ padding: 10px;
+ display: block;
+ font-size: 14px;
+ text-transform: capitalize;
+}
+.innerMenu{
+ flex-basis: 25%;
+ padding: 20px;
+}
+.innerMenu:nth-child(even){
+ background:#ccc;
+}
+.innerMenu:nth-child(odd){
+ background:#fff ;
+}
+.innerMenu ul li:nth-child(1) a{
+ font-weight: bold;
+ color: #111;
+}
+#megamenuBlock >article >nav > ul>li:hover > .megamenuContainer{
+ display: flex;
+}
+
+/* sports block */
+.megamenuContainer1{
+    width: 1200px;
+    height: 75vh;
+    background: #fff;
+    right: -455px;
+    top: 52px;
+    display: none;
+    border-bottom: 2px solid #ccc;
+    position: absolute;
+    
+     }
+    
+     .innerMenu1 ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+       }
+       .innerMenu1 ul li a{
+        color: #222222ab;
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+        font-size: 14px;
+        text-transform: capitalize;
+       }
+       .innerMenu1{
+        flex-basis: 25%;
+        padding: 20px;
+       }
+       .innerMenu1:nth-child(even){
+        background:#ccc;
+       }
+       .innerMenu1:nth-child(odd){
+        background:#fff ;
+       }
+       .innerMenu1 ul li:nth-child(1) a{
+        font-weight: bold;
+        color: #111;
+       }
+       #megamenuBlock >article >nav > ul>li:hover > .megamenuContainer1{
+        display: flex;
+       }
+       /*women block  */
+       .megamenuContainer2{
+        width: 1200px;
+        height: 75vh;
+        background: #fff;
+        right: -455px;
+        top: 50px;
+        display: none;
+        border-bottom: 2px solid #ccc;
+        position: absolute;
+        
+         }
+        
+         .innerMenu2 ul{
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+           }
+           .innerMenu2 ul li a{
+            color: #222222ab;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            font-size: 14px;
+            text-transform: capitalize;
+           }
+           .innerMenu2{
+            flex-basis: 25%;
+            padding: 20px;
+           }
+           .innerMenu2:nth-child(even){
+            background:#ccc;
+           }
+           .innerMenu2:nth-child(odd){
+            background:#fff ;
+           }
+           .innerMenu2 ul li:nth-child(1) a{
+            font-weight: bold;
+            color: #111;
+           }
+           #megamenuBlock >article >nav > ul>li:hover > .megamenuContainer2{
+            display: flex;
+           }
+
+#bold{
+    color: #111;
+    font-weight: bolder;
+}
+/* section 4 */
+.items{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ width: 100%;
+ /* margin: 1% 5% 0% ; */
+ background-color: white;
+ padding-top: 4px ;
+ padding: 4px 50px 0px 50px ;
+}
+.items a img{
+ max-width: 70%;
+ max-height: 70%;
+ 
+}
+.items a{
+ text-decoration: none;
+ font-weight: bold;
+}
+.items h4{
+ display: flex;
+ justify-content: center;
+ margin-top: -10px;
+ margin-left: -59px;
+}
+.home img{
+ width: 98%;
+ margin: 1%;
+ display: flex;
+ justify-content:space-around ;
+}
+/* .line1{
+ display: flex;
+ width: ;
+}
+.line1 div{
+ flex-basis: 50%;
+} */
+#dealsOfDayBlock{
+ background-color: white;
+ height: 60px;
+ /* width: 99%;
+ margin: 0 auto; */
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 5px 0 0 8px;
+ padding: 0 30px 0 20px;
+}
+
+/* .dealOfDay h2{
+ display: flex;
+ justify-content: flex-start;
+} */
+.viewAll a{
+ text-decoration: none;
+ background-color: #2874f0;
+ color: white;
+ padding: 10px 20px;
+ font-size: 13px;
+ font-weight: 500;
+ border-radius: 2px;
+ /* justify-content: flex-end; */
+}
+
+.deals{
+ background-color: white;
+ height: 280px;
+ width: 100%;
+ /* width: 99%;
+ margin: 0 auto; */
+ margin: 2px 0 0 8px;
+ display: flex;
+ flex-wrap: wrap;
+ flex-basis: 15%;
+ align-items: center;
+ justify-content: space-around;
+ padding: 25px 15px;
+ font-size: 14px;
+
+}
+
+.deals div p{
+ white-space:nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ line-height: 1.4;
+ align-items: center;
+ text-align: center;
+}
+
+div p:nth-child(2){
+ font-weight: bold;
+}
+
+div p:nth-child(3){
+ color: green;
+}
+
+
+.deals div p:nth-child(4){
+ opacity: 0.5;
+}
+
+.deals div img{
+ height: 150px;
+ width: 150px;
+}

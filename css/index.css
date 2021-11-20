@@ -1,0 +1,308 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #efefef;
+}
+#headerBlock{
+    background: #2874f0;
+    height: 56px;
+}
+#headerBlock article{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: 56px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftBlock{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.rightBlock{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: flex-end;
+}
+.logoBlock img{
+ width: 75px;
+}
+.exploreBlock img{
+    width: 9px;
+}
+.logoBlock a{
+    text-decoration: none;
+    font-style: italic;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.exploreBlock span:nth-child(1){
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.exploreBlock span:nth-child(2){
+    color: #ffe500;
+    font-weight: 500;
+    margin-right: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.exploreBlock{
+ margin-top: -6px;
+}
+.searchBlock{
+    flex-basis: 85%;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 6px;
+}
+
+.searchBlock input{
+    width: 300%;
+    padding: 8px;
+}
+
+.searchIcon{
+    position: relative;
+}
+
+.searchIcon i{
+    position: absolute;
+    left:-29px;
+    top:10px;
+} */
+/* right block  */
+/* .navBlock ul{
+   display: flex;
+   list-style: none;
+}
+.navBlock ul li a{
+    color: white;
+    text-decoration: none;
+    padding:6px 40px;
+}
+ #loginBlock{
+    background: white;
+    color: darkblue;   
+}
+.navBlock ul > li a{
+    background-color: white;
+    flex: none;
+} */
+/* #loginBlock{
+    background: white;
+    color: darkblue;   
+} */
+/* .rightBlock nav>ul{
+    display: flex;
+    list-style: none;
+}
+.rightBlock nav>ul >li{
+    margin: 0 20px;
+    position: relative;
+}
+.rightBlock nav>ul>li>a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: capitalize;
+    padding: 20px;
+}
+.dropdown{
+    position: absolute;
+    background-color: white;
+    width: 260px;
+    list-style: none;
+    top:38px;
+    left: -90px;
+    display: none;
+}
+.dropdown li a{
+    padding:12px;
+    color: #111;
+    text-decoration: none;
+    border-bottom:1px solid #efefef ;
+    display: block;
+}
+.rightBlock nav ul li:hover>ul{
+    display: block;
+}
+.triangleBlock{
+    display: flex;
+    justify-content: center;
+}
+.triangle{
+    border-bottom: 12px solid white;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    position: absolute;
+    top:-12px;
+} */
+/* megamenu css startes here */
+/* #megamenu{
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    height: 45px;
+}
+#megamenu article{
+    width: 80px;
+    margin: 0 auto;
+}
+#megamenu>article>nav>ul{
+    display: flex;
+    height: 45px;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-start;
+}
+#megamenu>article>nav>ul>li{
+    flex: 1;
+    position: relative;
+}
+#megamenu>article>nav>ul>li>a{
+    color: #111;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.megacontainer{
+    width:1200px;
+    height: 75vh;
+    background: #fff;
+    position: absolute;
+    top: 32px;
+    display: flex;
+    border-bottom: 2px  solid #ccc;
+}
+.innermenu{
+    flex-basis: 20px;
+    padding: 20px;
+}
+.innermenu:nth-child(odd){
+    background: #fff;
+}
+.innermenu:nth-child(even){
+    background: #ccc;
+} */
+
+ /* Mega Menu css starts here */
+/* #megamenuBlock{
+ width:100%;
+ background-color: #fff;
+ border-bottom: 1px solid #ccc;
+ height:45px;
+}
+#megamenuBlock article{
+ width: 80%;
+ margin: 0 auto;
+
+}
+#megamenuBlock >article>nav>ul{
+ display:flex;
+ height:45px;
+ list-style: none;
+ align-items: center;
+ justify-content: flex-start;
+}
+#megamenuBlock>article>nav>ul>li{
+ flex:1;
+ position: relative;
+}
+#megamenuBlock >article>nav>ul>li>a{
+ color: #111;
+ text-decoration: none;
+ font-size:14px;
+ text-transform: capitalize;
+}
+.megamenuContainer{
+ width:1200px;
+ height:75vh;
+ background: #fff;
+ position:absolute;
+ top:32px;
+ display:flex;
+ border-bottom: 2px solid #ccc;
+}
+.innerMenu{
+ flex-basis: 20%;
+ padding:20px;
+
+}
+.innerMenu:nth-child(odd){
+ background: #fff;
+}
+.innerMenu:nth-child(even){
+ background: #ccc;
+} */
+
+
+/* section 2 begins here */
+ /* article{
+    margin: 4px auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+#productList a{
+    text-decoration: none;
+    color: black;
+    padding-left: -3px;
+}
+#productList article{
+    flex-basis: 24%;
+    margin-top: 20px;
+    text-align: center;
+}
+#productList img{
+    width: 60px;
+    height: 60px;
+}
+/* section 3 begins here */
+/* #img1{
+    width: 100%;
+    margin: 2px;
+}
+
+#products img{
+    width:100px;
+    height: 100px;
+}
+
+
+.content{
+    margin: 30px;
+    background-color: white;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.container{
+    margin: 30px;
+    background-color: white;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#h2{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: flex-start;
+}
+#h3{
+    display: flex;
+ 
+    justify-content: flex-end;
+    background-color: #2874f0;
+    color: #eee;
+    padding: 10px 30px;
+    margin-left: 1355px;
+}  */
